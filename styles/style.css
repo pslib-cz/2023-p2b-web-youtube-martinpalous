@@ -1,6 +1,7 @@
 /* DOKUMENT STYLŮ K ÚPRAVĚ */
 
 .main {
+   align-items: center;
    gap: 1em;
    display: flex;
    flex-wrap: wrap;
@@ -8,7 +9,8 @@
 }
 
 .ytv {
-   height: fit-content;
+   display: flex;
+   flex-wrap: wrap;
 }
 .ytv__bottom {
    display: flex;
@@ -16,6 +18,7 @@
    gap: .5em;
 }
 .ytv__left {
+   align-items: center;
    display: flex;
    flex-shrink: 1;
    gap: .5em;
@@ -35,8 +38,8 @@
 
 }
 .icon {
-   align-self: center;
+
 }
 .btn--flex {
-    
+    display: flex;
 }
